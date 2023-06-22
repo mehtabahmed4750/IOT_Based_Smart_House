@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".water">
+
+
+    <ImageView
+        android:id="@+id/imgData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tt" />
+
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgData"
+        app:layout_constraintEnd_toEndOf="@+id/imgData"
+        app:layout_constraintStart_toStartOf="@+id/imgData"
+        app:layout_constraintTop_toTopOf="@+id/imgData" />
+
+    <EditText
+        android:id="@+id/et0"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:ems="10"
+        android:hint="Set the depth [inch]"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/imgData"
+        app:layout_constraintEnd_toEndOf="@+id/imgData"
+        app:layout_constraintStart_toStartOf="@+id/imgData" />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@android:string/ok"
+        app:layout_constraintEnd_toEndOf="@+id/imgData"
+        app:layout_constraintStart_toStartOf="@+id/imgData"
+        app:layout_constraintTop_toBottomOf="@+id/et0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

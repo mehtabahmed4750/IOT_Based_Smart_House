@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/company_logo_imageview"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/smarthouse" />
+
+        <TextView
+            android:id="@+id/company_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="IoT Based Smart House" />
+
+        <TextView
+            android:id="@+id/company_description_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="IoT Based Smart House Solutions is a leading software development company that offers innovative solutions to businesses across various industries. With a strong focus on customer satisfaction, we provide cutting-edge software applications tailored to meet the unique needs of our clients.
+
+At IoT Based Smart House Solutions, we pride ourselves on our team of highly skilled professionals who are passionate about delivering exceptional results. We leverage the latest technologies and industry best practices to develop robust and scalable software solutions that drive business growth.
+
+IoT Based Smart House Solutions is a leading software development company that specializes in smart house automation and offers a comprehensive range of services. Our expertise extends to custom software development, mobile app development, web development, cloud solutions, and software consulting. With a deep understanding of the latest technologies and industry trends, we help businesses of all sizes transform their houses into smart homes.
+
+Through our innovative solutions, we enable homeowners to control and automate various aspects of their homes, including lighting, temperature, security, entertainment systems, and more. Our team of skilled professionals works closely with clients to design and develop intuitive mobile applications and web interfaces that provide seamless control and monitoring of smart home devices.
+
+Contact us today to discuss your software needs and experience the difference of working with IoT Based Smart House Solutions. Together, let's build a technology-driven future for your business.
+"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/email_image"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/mail"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iotsmarthouse6@gmail.com"
+            android:textColor="@color/teal_200"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+
+        <ImageView
+            android:id="@+id/phone_image"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/phone"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/phone_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+92 316-5444073"
+            android:textColor="@color/teal_200"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>
+

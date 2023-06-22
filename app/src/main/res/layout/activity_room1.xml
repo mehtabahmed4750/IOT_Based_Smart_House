@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".room1">
+
+    <Switch
+        android:id="@+id/r1l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:text="Light"
+        android:textOff="Light off"
+        android:textOn="Light on"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <Switch
+        android:id="@+id/r1l2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="15dp"
+        android:text="Door"
+        android:textOff="Door locked"
+        android:textOn="Door unlocked"
+        android:textSize="30dp"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>
